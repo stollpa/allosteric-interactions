@@ -1,2 +1,2 @@
-# test
-this is a test
+# allosteric-interacions
+find allosteric interactions in E. coli
