@@ -7,11 +7,9 @@ Created on Fri Mar 16 12:07:40 2018
 @author: stollpa
 sol.fluxes.to_json('fluxes.json') # save fluxes
 """
-## how do I save the fluxes in a json file? So far I just figured out how to save the model.
-
 
 import cobra
-from escher import Builder
+#from escher import Builder
 
 model = cobra.io.read_sbml_model('core_patricia.xml')
 cobra.io.save_json_model(model, 'model.json')  # also save fluxes? how
