@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+-*- coding: utf-8 -*-
 """
 Created on Fri Mar 16 12:07:40 2018
 
@@ -11,7 +11,7 @@ import cobra
 from escher import Builder
 
 model = cobra.io.read_sbml_model('core_patricia.xml')
-cobra.io.save_json_model(model, 'model.json')
+cobra.io.save_json_model(model, 'model.json')  # also save fluxes? how
 
 ## constraints, ...
 """
@@ -38,4 +38,4 @@ sol=model.optimize()
 print(model.summary())
 #b = Builder(model=model)
 #b = Builder(map_name="iJO1366.Central metabolism") #test works
-#b.display_in_browser() # does not work
+#b.display_in_browser() # does not work, why?
