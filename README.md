@@ -1,2 +1,2 @@
 # allostric-interactions
-find allosteric interaction in E.coli
+I try to find allosteric interactions in E.coli.
