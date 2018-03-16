@@ -1,8 +1,11 @@
+
+
 -*- coding: utf-8 -*-
 """
 Created on Fri Mar 16 12:07:40 2018
 
 @author: stollpa
+sol.fluxes.to_json('fluxes.json') # save fluxes
 """
 ## how do I save the fluxes in a json file? So far I just figured out how to save the model.
 
@@ -39,3 +42,5 @@ print(model.summary())
 #b = Builder(model=model)
 #b = Builder(map_name="iJO1366.Central metabolism") #test works
 #b.display_in_browser() # does not work, why?
+
+sol.fluxes.to_json('fluxes.json') # save fluxes
